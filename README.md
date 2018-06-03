@@ -46,3 +46,8 @@ then reload your bashrc, or restart:
 
 other guides:
 https://docs.lvrui.io/2016/12/12/Linux%E4%B8%AD%E4%BD%BF%E7%94%A8ShadowSocks-Privoxy%E4%BB%A3%E7%90%86/
+
+to test your privoxy:
+
+`curl ip.gs` or `curl ip.sb`
+the ip should be the same as your bandwagon ip
