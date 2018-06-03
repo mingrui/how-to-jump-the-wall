@@ -33,6 +33,13 @@ https://freessr.win/use.html
 Use privoxy for 'global proxy'
 http://www.renhl.com/linux/2017/02/03/use-shadowsocks-and-privoxy
 
-https://docs.lvrui.io/2016/12/12/Linux%E4%B8%AD%E4%BD%BF%E7%94%A8ShadowSocks-Privoxy%E4%BB%A3%E7%90%86/
+at the last step, put these into your bashrc:
 
+```
+export http_proxy=http://localhost:8118
+export https_proxy=http://localhost:8118
+```
 
+then reload your bashrc, or restart:
+
+`source ~/.bashrc`
